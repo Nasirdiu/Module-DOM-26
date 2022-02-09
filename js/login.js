@@ -9,7 +9,7 @@ document.getElementById('login-submit').addEventListener('click',function(){
     const userPass=passField.value;
     // console.log(userPass);
     // cheek email & password
-    if(userEmail=='n' && userPass=='n'){
+    if(userEmail=='nasir@gmail.com' && userPass=='nasir'){
 
         window.location.href='banking.html';
     }
@@ -20,5 +20,3 @@ document.getElementById('login-submit').addEventListener('click',function(){
    }
 })
 
-// handle deposit button event
-document.getElementById('')
